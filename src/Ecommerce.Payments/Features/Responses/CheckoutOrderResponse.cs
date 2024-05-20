@@ -1,0 +1,9 @@
+﻿namespace Ecommerce.Payments.Features.Responses
+{
+    public class CheckoutOrderResponse
+    {
+        public string SessionId { get; set; }
+        public string PubKey { get; set; }
+        public string SessionUrl { get; set; }
+    }
+}
